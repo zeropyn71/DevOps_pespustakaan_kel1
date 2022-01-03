@@ -96,9 +96,7 @@
     <h4>1.4 Tujuan</h4>
         <p>Adapun tujuan yang didapat :</p>
     <ol>
-        <li>implementasi pembuatan perpustakaan digital untuk SMA 1 Yogyakarta</li>
-        <li>Menambah pengetahuan tentang teknologi informasi khususnya penyebaran informasi melalui perpustakaan digital.</li>
-        <li>Membantu Pengguna agar mengetahui koleksi apa saja yang ada dalam perpustakaan</li>
+        <li>implementasi sistem informasi perpustakaan digital untuk SMA 1 Yogyakarta</li>
     </ol>
     <br>
     <br>
@@ -156,20 +154,10 @@
                 Namun, untuk tingkatan ini jarang sekali dikerjakan dan lebih banyak hanya menerapkan dua level di bawahnya saja.</p>
         </ol><br>
             <li><strong>ERD (Entity Relationship Diagram)</strong></li>
-            <p>ERD merupakan salah satu jenis diagram yang sifatnya lebih struktural dan bisa digunakan untuk dimanfaatkan dalam suatu desain pada suatu database ataupun pada sebuah business plan</p>
+            <p>ERD merupakan salah satu jenis diagram yang sifatnya lebih struktural dan bisa digunakan untuk dimanfaatkan dalam suatu desain pada suatu database ataupun pada sebuah business plan. ERD sendiri memiliki beberapa simbol yang memiliki fungsinya masing-masing, berikut adalah beberapa simbol yang ada pada ERD:</p>
             <br>
-        <!-- ##################### Penerapan metode Scrum ############################# -->
-        <li><strong>Tujuan Penerapan Model Scrum</strong></li><br>
-        <p>Tujuan penerapan metode Scrum dalam pengembangan perangkat lunak</p>
-        <ul>
-            <li>Menciptakan software yang berfungsi secara efektif dan memiliki harga jual tinggi</li>
-            <li>Mengembangkan software agar bisa selalu berkembang, memiliki fungsionalitas yang banyak, dan sesuai dengan kebutuhan klien</li>
-            <li>Menyesuaikan software yang dibuat agar sesuai dengan kebutuhan pengguna sehingga waktu dan biaya pengerjaan bisa di kontrol</li>
-            <li>Memproduksi suatu software dengan fungsionalitas yang maksimal walau waktu dipercepat dan biaya yang diminimalisir</li>
-            <li>Meminimalisir kesalahan dalam pembuatan software dan mempermudah perubahan rencana apabila ada kesalahan saat pembuatan</li>
-            <li>Memaksimalkan kesempatan untuk berkolaborasi dengan klien untuk membahas perkembangan proyek dan untuk menerima feedback dari klien setiap diadakan nya test software yang dibuat</li>
-            <li>Membuat suatu manajemen team yang bisa mengatur diri sendiri yang terdiri dari orang orang terbaik di bidangnya</li>
-        </ul>
+            <img src="sources/erdSimbol.png" alt="">
+       
     </ol>
     <br>
     <h4>2.2 Metode Perancangan</h4>
@@ -244,7 +232,7 @@
               <li>Anggota dapat mengelola data pribadi</li>
             </ol>
             </ol><br>
-            <li>Resource Requirements</li>
+            <li><strong>Resource Requirements</strong></li>
             <ol>
                <li>Hardware</li>
             <ol type="a">
@@ -260,51 +248,6 @@
               <li>Database : Mysql</li>
             </ol>
         </ol>
-        <br>
-        <li><strong>Review</strong></li> 
-        <p>implementasi tahap pengujian akan mengulas mengenai fitur, fungsi, visual, dan interface yang di uji coba oleh klien. Pada tahap ini, perubahan akan dilakukan jika memang diperlukan. Uji coba mencakup kestabilan, usability testing, dan pengujian lainnya untuk memastikan semua hal terkontrol dengan baik</p>
-        <table border="1" style="font-size: 14px;" >
-            <tr>
-                <th style="padding: 5px;">Sekenario Pengujian</th>
-                <th>Hasil yang diharapkan</th>
-                <th>keterangan</th>
-                <th>kesimpulan</th>
-            </tr>
-            <tr>
-                <td style="padding: 5px;">Tidak memasukkan inputan saat login</td>
-                <td>Sistem tidak memberi akses dan menampilkan pesan error form harus diisi</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-            </tr>
-            <tr>
-                <td  style="padding: 5px;">Memasukkan username atau password salah</td>
-                <td>Sistem tidak memberi akses dan menampilkan pesan error inputan tidak tepat</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-            </tr>
-            <tr>
-                <td  style="padding: 5px;">Memasukkan username dan password sesuai data</td>
-                <td>Sistem memberikan akses kepada admin/anggota sesuai data login</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-            </tr>
-            <tr>
-                <td  style="padding: 5px;">Mengetik langsung halaman dashboard melalui url tanpa login</td>
-                <td>Sistem menangani proses autentikasi dan langsung diarahkan ke halaman login</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-            </tr>
-            <tr>
-                <td  style="padding: 5px;">Anggota meminjam buku tanpa memilih buku terlebih dahulu</td>
-                <td>Sistem memberikan pesan error untuk memilih buku terlebih dahulu</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-            </tr>
-                <td  style="padding: 5px;">Anggota meminjam buku yang sudah tidak tersedia</td>
-                <td>Sistem otomatis mematikan tombol pinjam apabila stok buku tidak tersedia</td>
-                <td>Sesuai harapan</td>
-                <td>Valid</td>
-        </table>
         <br>
         <li><strong>Tahap Design</strong></li><br>
         <ol>
