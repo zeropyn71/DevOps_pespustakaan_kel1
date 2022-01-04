@@ -27,6 +27,11 @@ p, li{
 table {
     font-size: 15px;
 }
+#tab{
+    border-collapse: collapse;
+    width: 65%;
+    font-size: 12pt;
+}
 a{padding:5px; text-decoration:none; color:#000000;}
 .tab_struktur table,.tab_struktur tr,.tab_struktur th,.tab_struktur td {
     border: 1px solid black;
